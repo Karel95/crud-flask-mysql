@@ -6,10 +6,10 @@ https://youtu.be/gJcLduyKqsk?si=WSLvTXuVSmj_DY8e
 ### Acontinuación muestro algunos pasos para hacer correr el proyecto:
 
 ##### PASO 1: <p>Crear mi entorno virtual
-` virtualenv -p python3 env o  python3 -m venv env`</p>
+` python3 -m virtualenv .env`</p>
 
 ##### PASO 2: Activar el entorno virtual ejecutando
-` . env/Scripts/activate `
+` . .env/Scripts/activate `
 
 ##### PASO 3: <p>Ya dentro del entorno virtual puedes instalar flask con el comando:  
 </p>`pip install flask`
@@ -24,6 +24,4 @@ https://youtu.be/gJcLduyKqsk?si=WSLvTXuVSmj_DY8e
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/crud-pytho-con-flask.png)
 
-<p>
-Muchas gracias por tu apoyo.
-</p>
+flask --app app --debug run

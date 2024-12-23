@@ -7,15 +7,12 @@ def connectionBD():
         host ="localhost",
         user ="root",
         passwd ="",
-        database = "crud_flask_python"
+        database = "cars"
         )
     if mydb:
         print ("Conexion exitosa a BD")
         return mydb
     else:
         print("Error en la conexion a BD")
-    
-
-    
     
     
